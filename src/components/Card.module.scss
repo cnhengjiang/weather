@@ -1,0 +1,16 @@
+.card {
+  width: 80px;
+  height: 130px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #b9dff6;
+  box-sizing: border-box;
+  border-top: 3px solid transparent;
+  cursor: pointer;
+  &.active {
+    background-color: white;
+    border-top: 3px solid #ffcb00;
+  }
+}
