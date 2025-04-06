@@ -13,8 +13,7 @@ module.exports = (env, argv) => {
     entry: path.resolve(rootPath, 'src/index.tsx'),
     output: {
       filename: isProd ? '[name].[chunkhash:8].js' : '[name].[fullhash:8].js',
-      path: path.resolve(rootPath, 'dist'),
-      // publicPath: '/',
+      path: path.resolve(rootPath, 'build'),
     },
     resolve: {
       extensions: ['.tsx', '.ts', '.jsx', '.js','.css'],
